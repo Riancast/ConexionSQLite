@@ -9,6 +9,8 @@ import javax.swing.table.DefaultTableModel;
 //Importamos el paquete de conexion.
 import Capa_Conexion.Conexion;
 
+// Esta es la clase operaciones, la cual realiza las distintas operaciones de la base de datos.
+
 public class Operaciones {
     //Creamos las variables para la conexion.
     static Connection cn;
