@@ -5,6 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
+// Esta es la clase conexión, como su nombre indica esto permite conectar 
+// nuestra aplicación a la base de datos SQLite.
+
 public class Conexion {
     //Creamos la variable Connection.
     static Connection cn = null;
