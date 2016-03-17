@@ -8,19 +8,7 @@ import javax.swing.table.DefaultTableModel;
 //Importamos el paquete de operaciones.
 import Capa_Operaciones.Operaciones;
 
-// Publico este comentario para hacer pruebas con los branchs, es decir las ramas
-// de versiones por si algo me fallara poder volver a la versión estable anterior.
 
-public class Vista extends javax.swing.JFrame {
-//variables.
-    static Connection cn;
-    static Statement s;
-    static ResultSet rs;
-    
-    public Vista() {
-        initComponents();
-        datosTabla();
-    }
 //Método para mostrar datos en la tabla.
     public void datosTabla(){
         Operaciones oper = new Operaciones();
